@@ -2,6 +2,12 @@ language: python
 python:
   - "3.6"
 
+
+matrix: 
+  include: 
+    - dist: bionic 
+    - dist: xenial
+    
 services: 
   - docker
 
