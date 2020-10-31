@@ -5,7 +5,6 @@ python:
 
 matrix: 
   include: 
-    - dist: bionic 
     - dist: xenial
     
 services: 
