@@ -19,6 +19,7 @@ services:
       - DB_NAME=app
       - DB_USER=postgres
       - DB_PASS=Test123
+      - DB_PORT=5432
     depends_on:
       - db
 
@@ -28,3 +29,4 @@ services:
       - POSTGRES_DB=app
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=Test123
+      - POSTGRES_PORT=5432
